@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { RecentMomentsComponent } from './recent-moments/recent-moments.component';
+import { MomentComponent } from './recent-moments/moment/moment.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RecentMomentsComponent,
+    MomentComponent
   ],
   imports: [
     BrowserModule,

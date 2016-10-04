@@ -1,0 +1,13 @@
+<div class="moment">
+    <div class="description">
+        {{ moment.description }}
+    </div>
+    <div class="date">
+        {{ moment.date | date:'longDate' }}
+    </div>
+    <ul class="hash">
+        <li *ngFor="let hash of moment.hash" class="hash-item">
+            {{ hash }}
+        </li>
+    </ul>
+</div>

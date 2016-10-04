@@ -1,3 +1,25 @@
-<h1>
-  {{title}}
-</h1>
+
+<div class="app">
+    <div class="title">
+        Happy Moments
+    </div>
+    <div class="actions">
+        <button
+            type="button"
+            name="button"
+            class="action-button"
+            (click)="addMoment()">
+
+            Add Moment
+        </button>
+        <button
+            type="button"
+            name="button"
+            class="action-button"
+            (click)="showHistory()">
+
+            My Moments
+        </button>
+    </div>
+    <recent-moments></recent-moments>
+</div>
