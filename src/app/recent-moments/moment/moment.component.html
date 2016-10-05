@@ -1,13 +1,14 @@
-<div class="moment">
-    <div class="description">
-        {{ moment.description }}
+<md-card class="moment">
+    <md-card-content class="description">
+        <p>
+            {{ moment.description }}
+        </p>
+    </md-card-content>
+    <div>
+        <div class="hash">
+            <button md-raised-button color="warn" *ngFor="let hash of moment.hash">
+                {{ hash }}
+            </button>
+        </div>
     </div>
-    <div class="date">
-        {{ moment.date | date:'longDate' }}
-    </div>
-    <ul class="hash">
-        <li *ngFor="let hash of moment.hash" class="hash-item">
-            {{ hash }}
-        </li>
-    </ul>
-</div>
+</md-card>

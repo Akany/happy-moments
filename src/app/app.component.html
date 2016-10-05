@@ -4,21 +4,11 @@
         Happy Moments
     </div>
     <div class="actions">
-        <button
-            type="button"
-            name="button"
-            class="action-button"
-            (click)="addMoment()">
-
+        <button md-raised-button color="accent" (click)="addMoment()">
             Add Moment
         </button>
-        <button
-            type="button"
-            name="button"
-            class="action-button"
-            (click)="showHistory()">
-
-            My Moments
+        <button md-raised-button color="primary" (click)="showHistory()">
+            View Moments
         </button>
     </div>
     <recent-moments></recent-moments>

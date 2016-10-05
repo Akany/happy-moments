@@ -1,29 +1,15 @@
 .moment {
-    background: rgba(216, 176, 33, 0.22);
-    border-radius: 10px;
-    padding: 10px;
-
-    .description {
-        font-size: 1.5em;
-        margin-bottom: 10px;
+    .date {
+        text-align: right;
     }
 
     .hash {
         text-align: right;
-        padding: 0px;
-        margin: 0px;
 
-        .hash-item {
-            display: inline-block;
-            background-color: lightblue;
+        [md-raised-button] {
+            min-width: auto;
+            line-height: 20px;
             margin-left: 10px;
-            padding: 1px 5px;
-            border-radius: 5px;
-            border: solid 1px black;
         }
-    }
-
-    .date {
-        text-align: right;
     }
 }
