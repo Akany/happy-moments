@@ -10,6 +10,7 @@ import { RecentMomentsComponent } from './home/recent-moments/recent-moments.com
 import { MomentComponent } from './home/recent-moments/moment/moment.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { AddMomentComponent } from './add-moment/add-moment.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component';
         RecentMomentsComponent,
         MomentComponent,
         LoginComponent,
-        HomeComponent
+        HomeComponent,
+        AddMomentComponent
     ],
     imports: [
         BrowserModule,

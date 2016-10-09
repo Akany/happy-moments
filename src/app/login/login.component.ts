@@ -6,8 +6,8 @@ import { LoginService } from './login.service';
 
 
 var loginForm = {
-    login: ['12345', [Validators.minLength(5), Validators.required]],
-    password: ['12345', [Validators.minLength(5), Validators.required]]
+    login: ['', [Validators.minLength(5), Validators.required]],
+    password: ['', [Validators.minLength(5), Validators.required]]
 };
 
 @Component({

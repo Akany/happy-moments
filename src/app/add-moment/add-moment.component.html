@@ -1,0 +1,9 @@
+<form [formGroup]="form" class="add-moment">
+	<md-input formControlName="moment" type="text" placeholder="Describe your moment" class="description"></md-input>
+
+	<div class="actions">
+		<button type="submit" md-raised-button color="accent" (click)="addMoment($event)" [disabled]="form.invalid">
+			Add Moment
+		</button>
+	</div>
+</form>
