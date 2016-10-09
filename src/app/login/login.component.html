@@ -1,0 +1,7 @@
+<form [formGroup]="form" class="login">
+	<md-input formControlName="login" placeholder="Login" minlength="5"></md-input>
+	<md-input formControlName="password" placeholder="Password" type="password" minlength="5"></md-input>
+	<button md-raised-button color="accent" [disabled]="form.invalid" (click)="login($event)" type=submit>
+		Login
+	</button>
+</form>
